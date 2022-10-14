@@ -1,4 +1,4 @@
-body{
-    background: #811982;
-    margin-bottom: 30px;
-}
+@import "header.scss";
+@import "body.scss";
+@import "reset.scss";
+@import "carousel.scss";
