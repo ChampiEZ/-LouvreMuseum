@@ -7,4 +7,20 @@
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    // pour les "border", ajouter directement la class dans le HTML
+        .c1{
+            border: red solid 3px;
+        }
+        .c2{
+            border: blue solid 3px;
+        }
+        .c3{
+            border: green solid 3px;
+        }
+        .c4{
+            border: orange solid 3px;
+        }
+        .c5{
+            border: purple solid 3px;
+        }
 }
