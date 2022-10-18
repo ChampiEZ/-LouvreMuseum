@@ -1,6 +1,13 @@
 body{
-    background: lightsalmon;
+    background-image: url(../img/LOUVRE.jpeg);
+    background-size:contain;
+    background-position: fixed;
     .cc{
         height: 150vh;
+        background-color: lightblue;
+    }
+    .tuvasvoir{
+        height: 30vh;
+        border: red solid 2px;
     }
 }

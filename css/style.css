@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -87,19 +96,204 @@ header.sticky ul li a {
   }
 }
 body {
-  background: lightsalmon;
+  background-image: url(../img/LOUVRE.jpeg);
+  background-size: contain;
+  background-position: fixed;
 }
 body .cc {
   height: 150vh;
+  background-color: lightblue;
+}
+body .tuvasvoir {
+  height: 30vh;
+  border: red solid 2px;
 }
 
-* {
+.home {
+  height: 100vh;
+  background-color: darkorange;
+}
+
+.container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin-top: 1.5rem;
+}
+
+.bg-footer {
+  background-color: #33383c;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-heading {
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+  list-style: none;
+}
+.footer-link a {
+  color: #acacac;
+  line-height: 40px;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
+  transition: all 0.2s;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+}
+.footer-link a:hover {
+  color: #E0952E;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.contact-info {
+  color: #acacac;
+  font-size: 16px;
+}
+
+.footer-social-icon {
+  font-size: 15px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+
+.facebook {
+  transition: transform 1s ease 0s;
+  background-color: #4e71a8;
+  color: #ffffff;
+}
+
+.twitter {
+  transition: transform 1s ease 0s;
+  background-color: #55acee;
+  color: #ffffff;
+}
+
+.instagram {
+  transition: transform 1s ease 0s;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: #ffffff;
+}
+
+/* HOVER */
+.facebook:hover, .twitter:hover, .instagram:hover {
+  transform: rotate(360deg);
+}
+
+.footer-alt {
+  color: #acacac;
+}
+
+.footer-heading {
+  position: relative;
+  padding-bottom: 12px;
+}
+.footer-heading:after {
+  content: "";
+  width: 25px;
+  border-bottom: 1px solid #FFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  border-bottom: 3px solid #E0952E;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+.content-foot {
+  background-color: rgb(43, 43, 43);
+}
+.content-foot .foot-text {
+  padding: 25px 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content-foot .container2 {
+  display: flex;
+  justify-content: center;
+}
+.content-foot .container2 p {
+  color: rgb(136, 136, 136);
+}
+.content-foot .container2 p span {
+  color: white;
+  font-weight: bold;
+}
+.content-foot .container2 .pay {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+}
+.content-foot .container2 .pay img {
+  width: 70px;
+  height: 40px;
+  object-fit: contain;
+  background-color: white;
+  padding: 10px 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
