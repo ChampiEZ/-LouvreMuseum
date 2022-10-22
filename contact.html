@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header class="main_header" id="header">
+        <a href="#header" class="logo">Musée du Louvre</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="contact">
+        <div class="content">
+            <h2>CONTACT</h2>
+            <p class="contact-desc"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an </span></p>
+        </div>
+        <div class="container3">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><img src="https://zupimages.net/up/22/16/7ee4.png"></div>
+                    <div class="text">
+                        <h4>Adresse</h4>
+                        <p>4671 Sugar Camp Road</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><img src="https://zupimages.net/up/22/16/pe9e.png"></i></div>
+                    <div class="text">
+                        <h4>Téléphone</h4>
+                        <p>06 12 13 14 15</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><img src="https://zupimages.net/up/22/16/sl92.png"></div>
+                    <div class="text">
+                        <h4>Email</h4>
+                        <p>nomdedomaine@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form method="post" action="wp_mail()">
+                    <h2>Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Nom Prénom</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required" name="message"></textarea>
+                        <span>Votre Message...</span>
+                    </div>
+                    <div class="inputBox">
+                    <input type="submit" name="" value="ENVOYER" style="font-size:25px">
+                    </div>
+                </form>
+            </div>
+        </div>
+	</section>
+
+<script src="script.js"></script>
+</body>
+</html>
