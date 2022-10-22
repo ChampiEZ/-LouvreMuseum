@@ -8,19 +8,12 @@
     text-transform: uppercase;
   }
   
-  .text-white {
-    color: #fff;
-  }
-  
-  .text-center {
+  footer .littleFooter {
     text-align: center;
-  }
-  
-  .mt-4 {
-    margin: 0;
-    margin-top: 1.5rem;
-  }
-  
+    p{
+      color: #acacac;
+    }
+  }  
   .bg-footer {
     background-color: #33383c;
     font-family: 'Raleway', sans-serif;
@@ -103,16 +96,9 @@
     color: #ffffff;
   }
   
-  /* HOVER */
-  
   .facebook:hover, .twitter:hover, .instagram:hover {
     transform: rotate(360deg);
-  }
-  
-  .footer-alt {
-    color: #acacac;
-  }
-  
+  } 
   .footer-heading {
     position: relative;
     padding-bottom: 12px;

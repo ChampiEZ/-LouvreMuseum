@@ -1,5 +1,5 @@
 .galerie{
-    background-color: #7d8085;
+    background-color: #000;
 }
 
 .wrapper {
@@ -7,6 +7,21 @@
     padding: 2rem;
     margin: 0 auto;
     margin-top: 12vh;
+    h2{
+        font-size: 40px;
+        font-weight: 100;
+        color: #fff;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        color: #FFF;
+        margin-bottom: 5vh;
+        padding: 0 30px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
 }
 
 /* Gallery */
