@@ -291,16 +291,27 @@ header.sticky ul li a {
     font-size: 1rem;
   }
 }
+.contactB {
+  background-color: #000;
+}
+
 .contact {
   position: relative;
-  min-height: 100vh;
-  padding: 75px 220px;
+  min-height: 90vh;
+  padding: 75px 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-color: #C9D2FF;
+}
+
+.clr_title {
+  color: lightseagreen;
+}
+
+.clr_title2 {
+  color: crimson;
 }
 
 .contact .content {
@@ -310,16 +321,14 @@ header.sticky ul li a {
 
 .contact .content h2 {
   font-size: 40px;
-  font-family: acumin-pro-semi-condensed, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #000;
+  font-weight: 100;
+  color: #fff;
   margin-bottom: 30px;
 }
 
 .contact .content p {
   font-weight: 300;
-  color: #000;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -334,25 +343,19 @@ header.sticky ul li a {
 .container3 .contactInfo {
   width: 50%;
   display: flex;
-  align-items: center;
   flex-direction: column;
 }
 
 .container3 .contactInfo .box {
   position: relative;
+  padding: 20px 0;
   display: flex;
-  width: 50%;
-  border-radius: 200px;
-  height: 80px;
-  margin-top: 50px;
-  background-color: #fff;
 }
 
 .container3 .contactInfo .box .icon {
-  min-width: 85px;
-  height: 85px;
-  margin-left: -2%;
-  background: #FF4495;
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,47 +364,35 @@ header.sticky ul li a {
 }
 
 .container3 .contactInfo .box .text {
-  margin-left: 50px;
-  padding-left: 15px;
-  padding-top: 3px;
+  display: flex;
+  margin-left: 20px;
   font-size: 16px;
-  color: #000;
+  color: #fff;
+  flex-direction: column;
   font-weight: 300;
-  width: 100%;
-  margin: -20px 0;
-  height: 80px;
 }
 
-.container3 .contactInfo .box .text h4 {
-  font-family: acumin-pro-semi-condensed, sans-serif;
-  font-size: 25px;
-  margin-block-start: 1rem;
-  margin-block-end: 1rem;
-  font-weight: 400;
-  font-style: normal;
+.container3 .contactInfo .box .text h3 {
+  font-weight: 500;
   color: lightseagreen;
 }
 
 .contactForm {
   width: 40%;
-  padding: 3%;
-  background: #FF4495;
-  border-radius: 30px;
+  padding: 40px;
+  background: #ffffff;
 }
 
 .contactForm h2 {
-  font-family: acumin-pro, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 40px;
-  color: #fff;
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
 }
 
 .contactForm .inputBox {
   position: relative;
   width: 100%;
   margin-top: 10px;
-  color: #fff;
 }
 
 .contactForm .inputBox input,
@@ -411,11 +402,9 @@ header.sticky ul li a {
   font-size: 16px;
   margin: 10px 0;
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #333;
   outline: none;
   resize: none;
-  color: #fff;
-  background: #FF4495;
 }
 
 .contactForm .inputBox span {
@@ -426,36 +415,33 @@ header.sticky ul li a {
   margin: 10px 0;
   pointer-events: none;
   transition: 0.5s;
-  color: #fff;
+  color: #666;
 }
 
 .contactForm .inputBox input:focus ~ span,
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span {
-  color: #fff;
+  color: crimson;
   font-size: 12px;
   transform: translateY(-15px);
 }
 
 .contactForm .inputBox input[type=submit] {
-  width: 30%;
-  font-family: acumin-pro-semi-condensed, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  background-color: #fff;
-  color: #FF4495;
+  width: 100px;
+  background-color: #000;
+  color: #fff;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
-  border-radius: 50px;
 }
 
 @media screen and (max-width: 1250px) {
   .contact {
     padding: 0;
     padding-bottom: 40px;
+    margin-top: 20vh;
   }
   .contact .content {
     display: flex;
